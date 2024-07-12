@@ -1,0 +1,224 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width:100%
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: #f3f0e9;
+    color: #333;
+    line-height: 1.6;
+    width: 100%
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding-top: 10px;
+}
+
+nav{
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+nav li{
+    display: inline;
+    text-align: center;
+}
+
+nav li a{
+    padding-left: 20px;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.head{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+    background-image: url(../images/hero-background.jpg);
+    background-size: cover;
+    background-position: 60% 40%;
+    color: #fff;
+}
+
+.head a{
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.head h1,p{
+    padding-bottom: 20px;
+}
+
+h5{
+    color: #d69e3d
+}
+
+.gallery h2{
+    font-size: 2em;
+}
+
+.gallery{
+    justify-content: center;
+}
+
+.img1{
+    width: 100%;
+    grid-area: a;
+    margin-bottom: 5px;
+}
+
+.img2{
+    width: 100%;
+    grid-area: b;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.img3{
+    width: 100%;
+    grid-area: c;
+    margin-left: 5px;
+}
+
+.img4{
+    width: 100%;
+    grid-area: d;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.img5{
+    width: 100%;
+    grid-area: e;
+    margin-left: 5px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a a"
+    "a a"
+    "b c"
+    "d e";
+}
+
+.off{
+    text-align: center;
+}
+
+.off img{
+    width: 280px;
+    height: 280px;
+}
+
+.off h2{
+    font-size: 2em;
+}
+
+.off h3{
+    font-size: 2em;
+}
+
+.explore{
+    text-align: center;
+    background-image: url(../images/coffee-shop.jpeg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 200% 200%;
+    padding: 39px;
+    color: #fff;
+}
+
+.menu a{
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.location a{
+    color: #fff;
+    text-decoration: none;
+    background-color: none;
+    padding: 20px;
+    border: 3.5px solid #fff;
+}
+
+.about a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 20px;
+}
+
+.about img{
+    padding-top: 30px;
+    width: 100%;
+}
+
+.testimonial{
+    background-color: #000;
+    color: #fff;
+}
+
+.jane{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url(../images/testimonial-1.jpeg);
+    background-image: 100%;
+    background-size: cover;
+    background-position: 60% 40%;
+    color: #fff;
+    width: 700px;
+    height: 40px;
+}
+
+.jane h5{
+    font-size: 1em;
+}
+
+.scott{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url(../images/testimonial-2.jpeg);
+    background-size: cover;
+    background-position: 60% 40%;
+    color: #fff;
+    width: 700px;
+    height: 40px;
+}
+
+.scott h5{
+    font-size: 1em;
+}
+
+.susie{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url(../images/testimonial-3.jpeg);
+    background-size: cover;
+    background-position: 60% 40%;
+    color: #fff;
+    width: 700px;
+    height: 40px;
+}
+
+.susie h5{
+    font-size: 1em;
+}
